@@ -15,8 +15,20 @@ Why should I study `machine learning`?
 
 * High school student who is learning matrices should be ahead of us, because X1, Y1, X2, Y2, M are all matrices. Why needs to be matrices? First, the input X is very likely to be multidimensional. Second, we need to have lot of sample records
 
+### Give Me Example?!
 
-## Implementation
+
+## Typical Implementation
+
+1. **Data preparation** You must have `historical data`. And it should be a good number of `historical data`, perhaps hundreds or thousands. Example: to build a program to read handwriting, you need a collection of images of `handwriting` letters - and label each image with the letter. 
+
+> Here, X1 = image, Y1=label. Our task is to find M, as such `X1 * M = Y1`, and this `M` should work with another set X2, as such `X2 * M = Y2`. 
+
+2. **Data sampling** X1 is it `image` or `matrices`? Matrices! You can't perform math calculation with images. Thus, we need to convert the image into number.
+
+
+
+
 
 ## Algorithm
 
