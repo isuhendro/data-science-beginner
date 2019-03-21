@@ -18,15 +18,19 @@ Why should I study `machine learning`?
 ### Give Me Example?!
 
 
-## Typical Implementation
+## Typical / Basic Implementation
 
-1. **Data preparation** You must have `historical data`. And it should be a good number of `historical data`, perhaps hundreds or thousands. Example: to build a program to read handwriting, you need a collection of images of `handwriting` letters - and label each image with the letter. 
+1. **Data Preparation** You must have `historical data`. And it should be a good number of `historical data`, perhaps hundreds or thousands. Example: to build a program to read handwriting, you need a collection of images of `handwriting` letters - and label each image with the letter. 
 
 > Here, X1 = image, Y1=label. Our task is to find M, as such `X1 * M = Y1`, and this `M` should work with another set X2, as such `X2 * M = Y2`. 
 
-2. **Data sampling** X1 is it `image` or `matrices`? Matrices! You can't perform math calculation with images. Thus, we need to convert the image into number.
+2. **Data Sampling** X1 is it `image` or `matrices`? Matrices! You can't perform math calculation with images. Thus, we need to convert the image into number by doing `data sampling`
 
+3. **Data Split** Supposed you have 1000 sample records. You need to split as two set, e.g. X1, Y1 as many as 750 records, and X2, Y2 as many as 250 records. You would then use X1 to build M, and use X2 to test how accurate is M. As mentioned above `if` M is perfect then X2 * M = Y2.
 
+4. **Data Cleansing** 
+
+5. **Data Normalisation**
 
 
 
