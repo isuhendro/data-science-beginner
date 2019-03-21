@@ -16,6 +16,8 @@ Why should I study `machine learning`?
 * High school student who is learning matrices should be ahead of us, because X1, Y1, X2, Y2, M are all matrices. Why needs to be matrices? First, the input X is very likely to be multidimensional. Second, we need to have lot of sample records
 
 ### Give Me Example?!
+Let's say we want to build house prediction price model.
+What are the historical data we need to have?
 
 
 ## Typical / Basic Implementation
@@ -28,9 +30,10 @@ Why should I study `machine learning`?
 
 3. **Data Split** Supposed you have 1000 sample records. You need to split as two set, e.g. X1, Y1 as many as 750 records, and X2, Y2 as many as 250 records. You would then use X1 to build M, and use X2 to test how accurate is M. As mentioned above `if` M is perfect then X2 * M = Y2.
 
-4. **Data Cleansing** There are cases where few of the historical data is creating problem instead of helping us in identifying the model. These are dirty data. Typical way to identify dirty data is by drawing them as graph, table, colored graphic.
+4. **Data Cleansing** There are cases where few of the historical data is creating problem instead of helping us in identifying the model. These are dirty data. Typical way to identify dirty data is by drawing them as graph, table, colored graphic. Once identified, we need to drop dirty data.
 
 5. **Data Normalisation**
+
 
 
 
