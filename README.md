@@ -1,5 +1,5 @@
 # data-science-beginner
-Too many information to swallow about Data Science, maybe writing these out will clear my mind
+Too many information to swallow about Data Science, maybe writing these out will clear my mind. But let me focus on Machine Learning - one aspect, perhaps the most popular technique in Data Science.
 
 ## Motivation
 Why should I study `machine learning`?
