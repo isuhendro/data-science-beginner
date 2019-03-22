@@ -16,14 +16,27 @@ Why should I study `machine learning`?
 * High school student who is learning matrices should be ahead of us, because X1, Y1, X2, Y2, M are all matrices. Why needs to be matrices? First, the input X is very likely to be multidimensional. Second, we need to have lot of sample records
 
 ### Give Me Example?!
-Let's say we want to build house prediction price model.
-What are the historical data we need to have?
+Let's say we want to build house prediction price model, with below historical data
 
 | Area in sqm | Location | Selling Price (in thousands dollar) |
 | -------------: |:-------------:| -----:|
 | 110 | Singapore | 800 |
 | 80 | New York |   900 |
 | 1000 | Jakarta |    500 |
+
+1. We need to operate in number. Thus, let's mark Singapore = 1, New York = 2, and Jakarta = 3.
+2. Let's say the first two rows are taken as training data, and the last row is taken as testing data.
+
+$$
+\left(\begin{array}{cc} 
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{array}\right)
+\left(\begin{array}{cc} 
+10 & 0\\ 
+0 & 5
+\end{array}\right)
+$$
 
 ## Typical / Basic Implementation
 
