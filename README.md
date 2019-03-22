@@ -18,11 +18,12 @@ Why should I study `machine learning`?
 ### Give Me Example?!
 Let's say we want to build house prediction price model.
 What are the historical data we need to have?
-| Area in sqm   | Location      | Selling Price (in thousands dollar)  |
+
+| Area in sqm | Location | Selling Price (in thousands dollar) |
 | -------------: |:-------------:| -----:|
-| 110      | Singapore | 800 |
-| 80      | New York      |   900 |
-| 1000 | Jakarta      |    500 |
+| 110 | Singapore | 800 |
+| 80 | New York |   900 |
+| 1000 | Jakarta |    500 |
 
 ## Typical / Basic Implementation
 
