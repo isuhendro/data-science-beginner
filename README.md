@@ -1,4 +1,4 @@
-# data-science-beginner
+# Data Science For Everyone
 Too much information to swallow about Data Science :weary:. Perhaps, writing these down out will clear my mind. But let me focus on Machine Learning :slot_machine: - one aspect, perhaps the most popular technique in Data Science.
 
 ## Motivation
