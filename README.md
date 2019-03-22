@@ -26,6 +26,8 @@ A = [[1, 4, 5],
     [-5, 8, 9]]
 ```
 
+> Note above representation of Matrix A.....
+
 ### Give Me Example?!
 Let's say we want to build house prediction price model, with below historical data
 
