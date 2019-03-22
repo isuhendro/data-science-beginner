@@ -15,7 +15,7 @@ Why should I study `machine learning`?
 
 * High school student who is learning matrices should be ahead of us, because X1, Y1, X2, Y2, M are all matrices. Why needs to be matrices? First, the input X is very likely to be multidimensional. Second, we need to have lot of sample records
 
-## A bit of Matrix
+## About Matrix
 Matrix is one of the high school math subject. Below is one of the example.
 
 ![matrix-python-example](https://user-images.githubusercontent.com/241914/54793552-eea62680-4c7d-11e9-9acb-e7db3709aae2.jpg)
@@ -37,17 +37,6 @@ Let's say we want to build house prediction price model, with below historical d
 
 1. We need to operate in number. Thus, let's mark Singapore = 1, New York = 2, and Jakarta = 3.
 2. Let's say the first two rows are taken as training data, and the last row is taken as testing data.
-
-$$
-\left(\begin{array}{cc} 
-0.8944272 & 0.4472136\\
--0.4472136 & -0.8944272
-\end{array}\right)
-\left(\begin{array}{cc} 
-10 & 0\\ 
-0 & 5
-\end{array}\right)
-$$
 
 ## Typical / Basic Implementation
 
