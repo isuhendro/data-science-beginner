@@ -41,9 +41,9 @@ Let's say we want to build house prediction price model, with below historical d
 2. Let's say the first two rows are taken as training data, and the last row is taken as testing data.
 
 ## Toolbox
-Choosing the right toolbox is not easy. You need to have solid background of engineering to be able to decide wisely. You also need to a lot of reference in internet, that very often have contradicting views. Very often, the right toolbox is influence with the final objective of your learning.
+> Choosing the right toolbox is not easy. You need to have solid background of engineering to be able to decide wisely. You also need to read / watch references in internet, that often have contradicting views. Occasionally, the right toolbox is influenced by the final objective of your learning, like what kind of product you're trying to build.
 
-The worst case, choosing the wrong one means losing weeks or months of your time.
+The worst case of choosing the wrong one is losing weeks or months of your time, to redo stuff.
 
 Below are my criterias in choosing the toolbox
 * **Cheap** If possible free. When you don't have sponsor, and taking your sweet time - having paid toolbox will add additional pressure, and diminish the fun factor.
