@@ -40,6 +40,23 @@ Let's say we want to build house prediction price model, with below historical d
 1. We need to operate in number. Thus, let's mark Singapore = 1, New York = 2, and Jakarta = 3.
 2. Let's say the first two rows are taken as training data, and the last row is taken as testing data.
 
+## Toolbox
+Choosing the right toolbox is not easy. You need to have solid background of engineering to be able to decide wisely. You also need to a lot of reference in internet, that very often have contradicting views. Very often, the right toolbox is influence with the final objective of your learning.
+
+The worst case, choosing the wrong one means losing weeks or months of your time.
+
+Below are my criterias in choosing the toolbox
+* **Cheap** If possible free. When you don't have sponsor, and taking your sweet time - having paid toolbox will add additional pressure, and diminish the fun factor.
+* **Easy to use** I would avoid infrastructure setup as much as possible
+* **Mobile** I would like to be able to work whenever, whereever
+* **Supported Widely** Community support is important when you work in a small team or alone
+
+Below is my choice of Toolbox for machine learning. 
+1. **Programming Language, Python** Although R is getting popular, at this point of time - I will choose Python over it. My main consideration is whenever I walk around the library - Python books for AI are found many more than other languages.
+2. **Programming Tool, Jupyter**
+3. **ML framework, Tensorflow**
+
+
 ## Typical / Basic Implementation
 
 1. **Data Preparation** You must have `historical data`. And it should be a good number of `historical data`, perhaps hundreds or thousands. Example: to build a program to read handwriting, you need a collection of images of `handwriting` letters - and label each image with the letter. 
